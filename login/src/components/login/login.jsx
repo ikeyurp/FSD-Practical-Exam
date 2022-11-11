@@ -2,6 +2,7 @@ import React from 'react';
 import './login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { AiOutlineGoogle, AiFillApple } from 'react-icons/md';
 
 function NewComponent() {
     return (
@@ -35,9 +36,9 @@ function NewComponent() {
                                     <p className="text-2 text-light">Not a member? <a className="fw-500" href="register-17.html">Register</a></p>
                                     <h3 className="text-white mb-4">Log In to Your Account</h3>
                                     <div className="d-flex">
-                                        <button type="button" className="btn btn-primary btn-sm fw-400 rounded-3 shadow-none"><span className="me-2"><FontAwesomeIcon icon={["fab", "fa-google"]} /></span><span className="mx-3">Log in with Google</span></button>
+                                        <button type="button" className="btn btn-primary btn-sm fw-400 rounded-3 shadow-none"><span className="me-2"><AiOutlineGoogle/></span><span className="mx-3">Log in with Google</span></button>
                                         <ul className="social-icons d-inline-block social-icons-rounded">
-                                            <li className="social-icons-apple mb-0"><a className="bg-dark-4" href="#" data-bs-toggle="tooltip" data-bs-original-title="Sign in with apple"><FontAwesomeIcon icon={["fab", "fa-apple"]} /></a></li>
+                                            <li className="social-icons-apple mb-0"><a className="bg-dark-4" href="#" data-bs-toggle="tooltip" data-bs-original-title="Sign in with apple"><AiFillApple/></a></li>
                                         </ul>
                                     </div>
                                     <div className="d-flex align-items-center my-4">
